@@ -10,10 +10,15 @@ It's then possible to go back to a specific save by simply overwriting the curre
 
 To call the powershell script, a simple cmd file would do and can launched from anywhere.
 The easiest way for me to change Steam's launcher to call this cmd file.
-If powershell script is downloaded and saved as c:\temp\ddda_backup.ps1
+If you download both .cmd and .ps1 files and put them in c:\temp\
 
 Steam > Dragon's Dogma Dark Arisen > Manage (Gear Icon ) > Properties > Launch Options
-Powershell -noexit -file c:\temp\ddda_backup.ps1
+Powershell -noexit -file c:\temp\ddda_backup.cmd
 
-After this change, when I click on play button in Steam for DDDA, it launched the script.
-In turn script creates a process that "watches" save folder location and handles backing it up.
+After this change, if you click on play button in Steam for DDDA, it launches the command line script.
+Then, PowerShell script 
+- registers an event watcher
+- launches the game
+- watches the save folder location and handles backing it up.
+
+You will need to edit files to point them to your own Steam Save file, your own game startup folder.  

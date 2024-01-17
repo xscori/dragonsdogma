@@ -21,4 +21,12 @@ Then, PowerShell script
 - launches the game
 - watches the save folder location and handles backing it up.
 
-You will need to edit files to point them to your own Steam Save file, your own game startup folder.  
+You will need to edit files to point them to your own Steam Save file, your own game startup folder.
+
+My steam save files are at 
+C:\Program Files (x86)\Steam\userdata\342408821\367500\Remote
+and I created a backup folder at the same level as Remote, just under DDDA game id (367500)
+C:\Program Files (x86)\Steam\userdata\342408821\367500\Backup
+
+If I wanted to restore a backed up save file, I simply overwrote
+C:\Program Files (x86)\Steam\userdata\342408821\367500\Remote\DDDA.sav file with the copy from backup folder.

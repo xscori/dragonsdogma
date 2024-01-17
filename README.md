@@ -1,4 +1,4 @@
-# dragonsdogma
+# Dragon's Dogma: Dark Arisen Save File Backup
 Backup Dragon's Dogma: Dark Arisen SAVE files
 
 This is a PowerShell script I used to backup my Dragon's Dogma: Arisen Save files.

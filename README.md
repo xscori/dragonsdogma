@@ -31,6 +31,8 @@ and I created a backup folder at the same level as Remote, just under DDDA game 
 
 C:\Program Files (x86)\Steam\userdata\342408821\367500\Backup
 
-If I wanted to restore a backed up save file, I simply overwrote
+If I wanted to restore a backed up save file, I simply overwrote the following file from 
 
-C:\Program Files (x86)\Steam\userdata\342408821\367500\Remote\DDDA.sav file with the copy from backup folder.
+C:\Program Files (x86)\Steam\userdata\342408821\367500\Remote\DDDA.sav 
+
+Scripts are provided as is. Remember to change them to suit your setup and use at your own risk.
